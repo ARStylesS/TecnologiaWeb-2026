@@ -4,50 +4,62 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/react.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link  rel="stylesheet" href="src/style.css">
     <title>Aluno Online</title>
   </head>
-  <body>  
-    <aside> 
-    <header>  <h2> Aluno Online </h2> </header>
-          <nav>  
+  <body>
+    <div id="container">
+    <aside id="paginain">
+      <header id="cabin">Aluno Online</header>
+      <nav id="options1">
+        <ul>
+          <li>Dashboard</li>
+          <li>Notas</li>
+          <li>Faltas</li>
+          <li>Boletos</li>
+          <li>Requerimentos</li>
+          <li>Sair</li>
+        </ul>
+      </nav>
+    </aside>
+    <main id="paginacont">
+      <header id="paginaprin">Olá, Aluno!</header>
+      <section>
+        <h1 class="tituloin">Bem-vindo ao portal do aluno</h1>
+
+        <div class="mural">
+          <h2 class="cor">Mural de Avisos</h2>
+          <article>
             <ul>
-               <li><u style="color: blue;">Dashbord</u></li><br>
-               <li><u style="color: blue;">Notas</u></li><br>
-               <li><u style="color: blue;">Faltas</u></li><br>
-               <li><u style="color: blue;">Boletos</u></li><br>
-               <li><u style="color: blue;">Requerimento</u></li><br>
-               <li><u style="color: blue;">Sair</u></li><br>
-             </ul>
-          </nav>  
-    </aside>    
-               <header>  <h1>Olá, Aluno </h1></header>
-                      <section>
-                      <h1> Bem-vindo ao portal do aluno</h1>
-                        <h1> Mural de avisos</h1>
-                      <article>  
-                       <ul>
-                        <li>Inscrição para o projeto de extensão</li>
-                        <li>Eleição para um representante de turma</li>
-                       </ul>
-                      </article>
-                       <h1>Calendário Acadêmico</h1>
-                       <article>
-                       <ul>
-                        <li>23/02 - Ínício do período letivo 2026-1</li>
-                        <li>25/04 - Prazo final para aplicação da P1</li>
-                        <li>23/06 - Prazo final para aplicação da P2</li>
-                        <li>04/07 - Fim do período letivo</li>
-                       </ul>
-                       </article>
-                       <article>
-                        <h1>Minhas Disciplinas</h1>
-                        <ul>
-                          <li>Banco de Dados i (HMDC253)</li>
-                          <li>Estrutura de Dados (MDC127)</li>
-                          <li>Tecnologias Web(HDM 251)</li>
-                        </ul>
-                        </article>
-                    </section>
-                
-  </body>
+              <li>Inscrição para o projeto de extensão</li>
+              <li>Eleição para representante de turma</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="principalp">
+          <h2 class="cor">Calendário Acadêmico</h2>
+          <article>
+            <ul>
+              <li>23/02 - Início do período letivo 2026-1</li>
+              <li>25/04 - Prazo final para aplicação da P1</li>
+              <li>23/06 - Prazo final para aplicação da P2</li>
+              <li>04/07 - Fim do período letivo 2026-1</li>
+            </ul>
+          </article>
+        </div>
+        <div class="mural">
+          <h2 class="cor">Minhas Disciplinas</h2>
+          <article>
+            <ul>
+              <li>Banco de Dados I</li>
+              <li>Estrutura de Dados</li>
+              <li>Tecnologias Web</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
 </html>
